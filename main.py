@@ -75,5 +75,4 @@ req = Request(
 
 urlopen(req)
 
-print("Sorry, your PC is not compatible with this software, please use another.")
-input("Please press enter to exit.")
+print("click ender to exit")
