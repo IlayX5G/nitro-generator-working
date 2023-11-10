@@ -1,6 +1,4 @@
-## Coded By JavorR#8365
-## Discord : https://discord.gg/bReDqyZfhM
-## Join To Discord Server
+
 import os
 import json
 import httpx
